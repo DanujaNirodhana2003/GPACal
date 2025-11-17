@@ -18,7 +18,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/GPACal/">
           <div className="min-h-screen w-full">
             <Sidebar />
             <Routes>
