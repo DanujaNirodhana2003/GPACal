@@ -5,6 +5,10 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 0a7ae1bbdab21b0853b026a807b678ed667f0a60
   base: '/GPACal/',
   server: {
     host: "::",
