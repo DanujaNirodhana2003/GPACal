@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Build
-        run: yarn build# This runs the build script!
+        run: yarn build #This runs the build script!
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
